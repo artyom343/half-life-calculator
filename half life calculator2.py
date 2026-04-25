@@ -1,10 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Radioactive isotope database (half-life in YEARS)
+# Radioactive isotope database 
 isotopes = {
-    # 43
-    "Technetium-99m (43)": 6.01 / 8760,  # 6.01 hours → years
+    "Technetium-99m (43)": 6.01 / 8760,  
     "Technetium-98 (43)": 4.2e6,
 
     # 83–92
@@ -32,7 +31,7 @@ isotopes = {
     "Nobelium-259 (102)": 58 / 60 / 24 / 365,
     "Lawrencium-262 (103)": 3.6 / 60 / 24 / 365,
 
-    # 104–118 (representative longest-lived isotopes)
+    # 104–118 
     "Rutherfordium-267 (104)": 1.3 / 365,
     "Dubnium-268 (105)": 1.0 / 365,
     "Seaborgium-269 (106)": 0.24 / 365,
